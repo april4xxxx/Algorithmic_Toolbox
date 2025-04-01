@@ -8,20 +8,20 @@ files:
     visible: true
     placeholders:
       - offset: 439
-        length: 9
+        length: 11
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 439
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: maximum_pairwise_product_unit_tests.py
     visible: true
     placeholders:
       - offset: 401
-        length: 9
+        length: 11
         placeholder_text: type here
         initial_state:
           length: 9
@@ -33,10 +33,13 @@ files:
   - name: tests.py
     visible: false
     learner_created: false
+  - name: max_pairwise_product_advanced.py
+    visible: true
+    learner_created: true
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/Xscmz/programming-assignment-1-maximum-pairwise-product/discussions
 status: Unchecked
 feedback:
   message: "Local tests passed, please <a href=\"https://www.coursera.org/learn/algorithmic-toolbox/programming/Xscmz/programming-assignment-1-maximum-pairwise-product/submission\"\
     >submit to Coursera</a>"
-  time: "Tue, 01 Apr 2025 12:15:29 UTC"
+  time: "Tue, 01 Apr 2025 16:33:16 UTC"
 record: -1
