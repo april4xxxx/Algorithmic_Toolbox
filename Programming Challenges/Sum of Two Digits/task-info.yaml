@@ -8,7 +8,7 @@ files:
     visible: true
     placeholders:
       - offset: 220
-        length: 77
+        length: 78
         placeholder_text: write your code here
         initial_state:
           length: 20
