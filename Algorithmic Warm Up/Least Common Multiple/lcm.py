@@ -1,5 +1,5 @@
 # python3
-
+import math
 
 def lcm_naive(a, b):
     assert 1 <= a <= 2 * 10 ** 9 and 1 <= b <= 2 * 10 ** 9
@@ -13,8 +13,12 @@ def lcm_naive(a, b):
 
 def lcm(a, b):
     assert 1 <= a <= 2 * 10 ** 9 and 1 <= b <= 2 * 10 ** 9
-
-    type here
+    c,d = a,b
+    while b!=0:
+        a, b = b, a % b
+    divisor = a
+    return c*d // divisor
+#    return a * b // math.gcd(a, b)
 
 
 if __name__ == '__main__':

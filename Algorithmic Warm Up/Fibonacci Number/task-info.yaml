@@ -3,27 +3,27 @@ files:
   - name: fibonacci_number.py
     visible: true
     placeholders:
-      - offset: 230
-        length: 9
+      - offset: 366
+        length: 1
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 230
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: fibonacci_number_unit_tests.py
     visible: true
     placeholders:
       - offset: 334
-        length: 9
+        length: 7
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 334
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: logo.png
@@ -35,4 +35,8 @@ files:
     learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-2-algorithmic-warm-up/discussions
 status: Unchecked
+feedback:
+  message: "Local tests passed, please <a href=\"https://www.coursera.org/learn/algorithmic-toolbox/programming/b66y2/programming-assignment-2-algorithmic-warm-up/submission\"\
+    >submit to Coursera</a>"
+  time: "Wed, 02 Apr 2025 11:07:55 UTC"
 record: -1

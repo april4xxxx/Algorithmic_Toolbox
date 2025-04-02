@@ -18,9 +18,13 @@ def last_digit_of_the_sum_of_fibonacci_numbers_naive(n):
 
 def last_digit_of_the_sum_of_fibonacci_numbers(n):
     assert 0 <= n <= 10 ** 18
+    reduced_index = (n+2) % 60
+    prev, curr = 0, 1
+    for _ in range(2, reduced_index + 1):
+        prev, curr = curr, (prev + curr) % 10
+    fib_mod_10 = reduced_index if reduced_index <=1 else curr
 
-    type here
-
+    return (fib_mod_10 - 1) % 10
 
 if __name__ == '__main__':
     input_n = int(input())
