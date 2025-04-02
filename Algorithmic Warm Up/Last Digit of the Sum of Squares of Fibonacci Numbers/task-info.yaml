@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 510
-        length: 9
+        length: 155
         placeholder_text: type here
         initial_state:
           length: 9
@@ -16,14 +16,14 @@ files:
   - name: last_digit_of_the_sum_of_squares_of_fibonacci_numbers_unit_tests.py
     visible: true
     placeholders:
-      - offset: 593
-        length: 9
+      - offset: 592
+        length: 1
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 593
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: logo.png
