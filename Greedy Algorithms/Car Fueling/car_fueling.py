@@ -7,8 +7,21 @@ def compute_min_number_of_refills(d, m, stops):
     assert 1 <= len(stops) <= 300
     assert 0 < stops[0] and all(stops[i] < stops[i + 1] for i in range(len(stops) - 1)) and stops[-1] < d
 
-    type here
+    stops = [0] + stops + [d]
+    num_refills = 0
+    current_refill = 0
+    while current_refill < len(stops) - 1:
+        last_refill = current_refill
+        while (current_refill < len(stops) - 1 and # Move i forward while the next stop is within reach of the last refill stop
+               stops[current_refill + 1] - stops[last_refill] <= m):
+            current_refill += 1
 
+        if current_refill == last_refill:
+            return -1
+
+        if current_refill < len(stops) - 1:
+            num_refills += 1
+    return num_refills
 
 if __name__ == '__main__':
     input_d = int(input())
